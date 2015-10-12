@@ -1,11 +1,5 @@
-Elixir Meetups - Mexico D.F. - 2nd Meetup
-=========================================
+Realizando Pruebas con Elixir - Erlang Factory Lite Mexico City (2015)
+======================================================================
 
-Slides for 'Metaprograming with Ellxir' Workshop
-
-In order to view the slides in a browser, you should run an http server in this directory, for example:
-
-```
-$ python3 -m http.server
-```
+Slides and code examples for the 'Realizando Pruebas con Ellxir' talk, given in the 1st ever [Erlang Factory Lite in Mexico City](http://www.erlang-factory.com/mexico2015/agustin-ramos)
 
