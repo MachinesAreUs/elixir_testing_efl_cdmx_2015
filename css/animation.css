@@ -1,0 +1,32 @@
+.bounce {
+  position: absolute;
+  -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 760px; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 760px; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 760px; }
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 760px; }
+}
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+}
