@@ -2,11 +2,13 @@ defmodule ElixirTestingOverview.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :elixir_testing_overview,
+    [app: :elixir_testing,
      version: "0.0.1",
      elixir: "~> 1.0",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     test_coverage: [tool: ExCoveralls],
+     preferred_cli_env: [coveralls: :test],
      deps: deps]
   end
 
@@ -27,6 +29,11 @@ defmodule ElixirTestingOverview.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+     {:eqc_ex, git: "https://github.com/Quviq/eqc_ex.git", tag: "1.2.3"},
+     {:excheck, "~> 0.2", only: :test},
+     {:triq, github: "krestenkrab/triq", only: :test},
+     {:excoveralls, "~> 0.3", only: :test}
+    ]
   end
 end

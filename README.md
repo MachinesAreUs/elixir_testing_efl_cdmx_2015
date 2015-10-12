@@ -1,4 +1,11 @@
-Elixir Testing Overview
------------------------
+Elixir Meetups - Mexico D.F. - 2nd Meetup
+=========================================
 
-Code samples for the talk ["Realizando Pruebas con Elixir/Erlang"](http://www.erlang-factory.com/mexico2015/agustin-ramos) given in the ["Erlang Factory Lite Mexico City 2015"](http://www.erlang-factory.com/mexico2015#home) conference.
+Slides for 'Metaprograming with Ellxir' Workshop
+
+In order to view the slides in a browser, you should run an http server in this directory, for example:
+
+```
+$ python3 -m http.server
+```
+

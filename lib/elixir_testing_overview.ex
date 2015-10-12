@@ -1,2 +1,0 @@
-defmodule ElixirTestingOverview do
-end
