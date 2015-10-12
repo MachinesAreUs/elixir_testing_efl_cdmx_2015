@@ -562,7 +562,7 @@ Shrinking x(0 times)
   1) test Property Erlang sequence equals Elixir list (EnumProperties)
      test/eqc/enum_properties.exs:5
      forall({m, n} <- {int, int}) do
-       collect(t: {m, n}, in: :lists.seq(m, n) == Enum.to_list(m .. n))
+       :lists.seq(m, n) == Enum.to_list(m .. n))
      end
      Failed for {1, 0}
 
@@ -684,7 +684,7 @@ Lo siguiente:
 
 --
 
-* Usar quickcheck para generar sequencias de eventos.
+* Usar quickcheck para generar secuencias de eventos.
 
 --
 
