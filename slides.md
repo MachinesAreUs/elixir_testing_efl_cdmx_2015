@@ -121,7 +121,7 @@ Ejemplo de **on_exit**:
 --
 
 ```elixir
-defmodule OnExit do
+defmodule OnExitTest do
   use ExUnit.Case
   
   setup do
