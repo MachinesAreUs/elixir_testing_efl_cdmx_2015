@@ -486,7 +486,6 @@ Algunos comentarios:
 --
 
 * Lo portaron a Erlang hace 10 años, pero no es abierto: **Quviq Erlang QuickCheck**
---
 
 ---
 # Conceptos de Property-based Testing
@@ -698,7 +697,7 @@ Lo siguiente:
 # Ejemplo de pruebas de concurrencia 
 --
 
-###.center["Espérense al siguiente año" - **@hiphoox**]
+###.center["Ya tienen un motivo para venir al siguiente año" - **@hiphoox**]
 
 --
 
