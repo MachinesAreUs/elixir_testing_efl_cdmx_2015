@@ -1,4 +1,4 @@
-defmodule OnExit do
+defmodule OnExitTest do
   use ExUnit.Case
   
   setup do
