@@ -4,7 +4,7 @@ defmodule OnExitTest do
   setup do
     context = %{name: "Agus"}
     on_exit fn -> 
-      IO.puts "Cleaning up the context #{inspect context}" 
+      #IO.puts "Cleaning up the context #{inspect context}" 
     end
     {:ok, context}
   end
