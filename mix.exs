@@ -30,7 +30,7 @@ defmodule ElixirTestingOverview.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-     {:eqc_ex, git: "https://github.com/Quviq/eqc_ex.git", tag: "1.2.3"},
+     {:eqc_ex, git: "https://github.com/Quviq/eqc_ex.git", tag: "1.2.4"},
      {:excheck, "~> 0.2", only: :test},
      {:triq, github: "krestenkrab/triq", only: :test},
      {:excoveralls, "~> 0.3", only: :test}
