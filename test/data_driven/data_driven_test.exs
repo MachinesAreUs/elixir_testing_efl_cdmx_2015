@@ -2,8 +2,8 @@ defmodule DataDrivenTest do
   use ExUnit.Case
 
   data = [
-    {1, 3, 4},
-    {7, 4, 11}, # Error intencional
+    {1, 3, 4}
+    #    {7, 4, 11}, # Error intencional
   ]
 
   for {a,b,c} <- data do
