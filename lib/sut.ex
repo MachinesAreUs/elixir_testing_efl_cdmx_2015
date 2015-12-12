@@ -8,8 +8,4 @@ defmodule SUT do
     2015 - age
   end
 
-  def sum(x,y) do
-    x + y
-  end
-
 end

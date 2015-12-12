@@ -11,7 +11,7 @@ defmodule DataDrivenTest do
     @b b
     @c c
     test "sum of #{@a} and #{@b} should equal #{@c}" do  
-      assert SUT.sum(@a,@b) == @c 
+      assert FooCalculator.add(@a,@b) == @c 
     end
   end
 end
