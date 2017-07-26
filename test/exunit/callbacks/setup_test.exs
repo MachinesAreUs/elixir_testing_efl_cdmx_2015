@@ -11,7 +11,7 @@ defmodule SetupTest do
   end
 
   test "setup_all should be called", %{name: value} do
-    assert value == "value"
+    assert value == "Agus"
   end
 
   test "it knows how to greet", %{name: name} do
@@ -22,7 +22,7 @@ defmodule SetupTest do
     assert SUT.when_was_i_borned?(age) == 1979
   end
 
-  test "it knows how to greet", context do
+  test "it knows how to greet w/context", context do
     name = context[:name]
     assert SUT.greet(name) == "Hello #{name}!"
   end

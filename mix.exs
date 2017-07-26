@@ -31,8 +31,8 @@ defmodule ElixirTestingOverview.Mixfile do
   defp deps do
     [
      {:eqc_ex, git: "https://github.com/Quviq/eqc_ex.git", tag: "1.2.4"},
-     {:excheck, "~> 0.2", only: :test},
-     {:triq, github: "krestenkrab/triq", only: :test},
+     {:excheck, "~> 0.5", only: :test},
+     {:triq, github: "triqng/triq", only: :test},
      {:excoveralls, "~> 0.4", only: :test},
      {:earmark, "~> 0.1", only: :dev},
      {:ex_doc, "~> 0.11", only: :dev}
