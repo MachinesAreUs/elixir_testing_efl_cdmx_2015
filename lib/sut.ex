@@ -1,4 +1,7 @@
 defmodule SUT do
+  @moduledoc """
+  System Under Test (just an example)
+  """
 
   def greet(name) do
     "Hello #{name}!"

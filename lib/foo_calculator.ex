@@ -1,4 +1,7 @@
 defmodule FooCalculator do
+  @moduledoc """
+  A Foo Calculator
+  """
 
   @doc """
     Adds to numbers.
@@ -10,7 +13,7 @@ defmodule FooCalculator do
     iex> FooCalculator.add(1.3, 2.4)
     3.7
   """
-  def add(x,y) when is_number(x) and is_number(y) do
+  def add(x, y) when is_number(x) and is_number(y) do
     x + y
   end
 end
